@@ -1,0 +1,66 @@
+{
+  "mod_elements": [
+    {
+      "name": "CURRENCY",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "currency"
+    },
+    {
+      "name": "CurrencyEm",
+      "type": "villagertrade",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "currency_em"
+    },
+    {
+      "name": "CurrencyTime",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "currency_time"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.expansionlandar.currency": "Standard Currency",
+      "advancements.currency_time.descr": "Obtain a standard Expansion Currency item.",
+      "item.currencylandar.currency": "Standard Currency",
+      "item.expansion.currency": "Standard Currency",
+      "advancements.currency_time.title": "Currency Time"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Currency Pack",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "currencylandar",
+    "modName": "Currency Mod",
+    "version": "0.1.1",
+    "description": "Adds a tradeable currency unit for servers.",
+    "author": "Landar",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "devspace.landar.currency",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
