@@ -1,4 +1,4 @@
-# Gradle build system ignores
+# Gradle build system ignored files
 .gradle/
 build/
 
